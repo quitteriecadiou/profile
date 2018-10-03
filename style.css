@@ -1,0 +1,152 @@
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 15px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  box-shadow: 2.5px 2.5px 4px rgba(0,0,0,0.15);
+}
+
+
+body {
+  background-color: #f8f9fc;
+  font-family:'Open Sans', sans-serif;
+  color: #2A2B2A;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+}
+
+h1, h2, h3 {
+  font-family:'Montserrat';
+  font-weight: lighter;
+}
+
+h1 {
+  color: #de3c3c;
+}
+
+h2 {
+  color: rgba(222,60,60,0.8);
+}
+
+h3 {
+  color: #f7b32d;
+}
+
+a {
+  text-decoration: none;
+  color: #2A2B2A;
+}
+
+a:hover {
+  font-style: italic;
+  color: #f7b32d;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.medium-img {
+  height: auto;
+  max-width: 250px;
+}
+
+.round-edge {
+  border-radius: 5px;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: ;
+}
+
+li a:hover {
+  font-weight: normal;
+}
+
+.img-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.btn-red {
+  background-color: #de3c3c;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  font-weight: lighter;
+  transition: 0.1s;
+  font-size: 1.2rem;
+}
+
+.btn-red:hover {
+  background-color: rgb(247,179,45,1.0);
+  color: white;
+  font-style: italic;
+}
+
+.hover-yellow:hover {
+  color: rgba(247,179,45,1.0);
+}
+
+.hover-light-yellow:hover {
+  color: rgba(247,179,45,0.8);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line {
+  overflow: hidden;
+}
+
+
+.line:before,
+.line:after {
+ background-color: #f7b32d;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 50%;
+}
+
+.line:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+.line:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
